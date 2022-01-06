@@ -1,0 +1,45 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:BebasNeue;
+    background-color: #f2f2f2f2;
+}
+
+p{
+    color: #ff0000;
+    font-size: 20px;
+}
+
+form{
+    background-color:#ffffff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    max-width:250px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+button{
+    margin-top: 10px;
+}
+
+form .inputs input[type="text"], input[type="password"]{
+    padding :8px;
+    border-radius: 5px;
+    border:none;
+    background-color: #f2f2f2f2;
+    margin-bottom:8px;
+    outline:none;
+}
+
+form button{
+    padding:8px 15px;
+    border:none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ff0000;
+}
